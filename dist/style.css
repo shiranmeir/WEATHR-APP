@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(56, 150, 211)
+}
+
+.weather{
+    display: grid;
+    grid-template-areas: 
+    "r l";
+    background-color: rgb(56, 150, 211);
+    box-shadow: 3px 3px 20px gray;
+    margin: 5px;
+
+}
+.city-left{
+    grid-area: l;
+}
+
+.city-left{
+    grid-area: r;
+}
+
